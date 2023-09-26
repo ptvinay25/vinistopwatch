@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(to right, #fff200,
+    #00ffdd, #00ffdd, #fff200);
+    margin: 0;
+   
+}
+
+.countdown{
+    justify-items: center;
+    align-items: center;    
+    text-align: center;
+    padding: 20px;
+    color: blue;
+    margin-top: 100px;
+}
+
+.countdown h1{
+    width: 100%;
+    margin-top: 50px;
+    font-size: 90px;
+    background: linear-gradient(to right, rgb(106, 0, 255), rgb(0, 19, 128),
+                     rgb(0, 19, 128), rgb(106, 0, 255));
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+    text-align: center;
+}
+
+.buttons{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttons img{
+    width: 10%;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.buttons img:nth-child(2){
+    width: 100px;
+}
+
+.fa {
+    cursor: pointer;
+    padding: 20px;
+}
